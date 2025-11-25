@@ -4,21 +4,6 @@
 
 A canvas-based, node-driven interface for exploring ideas with AI. Create query nodes on a 2D canvas, receive responses as connected nodes, and branch off any point to explore new directions while maintaining separate contexts per branch.
 
-## Project Status
-
-🚧 **Week 3 - Canvas Base & Node Rendering** 🚧
-
-Current implementation includes:
-- [x] React + Vite project setup
-- [x] React Flow integration for canvas
-- [x] Custom node types (Query, Answer, Sources)
-- [x] Color-coded nodes per proposal spec
-- [x] Pan, zoom, and minimap navigation
-- [x] Interactive bullet hover menus
-- [ ] Backend API integration
-- [ ] LLM integration
-- [ ] RAG/FAISS memory system
-
 ## Tech Stack
 
 ### Frontend
@@ -55,7 +40,7 @@ npm install
 npm run dev
 ```
 
-The app will be available at `http://localhost:5173`
+The app will be available at `http://localhost:5173` for now
 
 ### Build for Production
 
@@ -108,7 +93,7 @@ mindmapper/
 
 ## Development Timeline
 
-See the [Capstone Proposal](./docs/proposal.pdf) for the full 14-week plan.
+See the [Capstone Proposal](./docs/Proposal_V1.pdf) for the full 14-week plan.
 
 ## Author
 
