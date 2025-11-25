@@ -1,0 +1,149 @@
+.answer-node {
+  background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+  border: 2px solid #2196f3;
+  border-radius: 12px;
+  padding: 0;
+  min-width: 280px;
+  max-width: 380px;
+  box-shadow: 0 4px 12px rgba(33, 150, 243, 0.2);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.answer-node:hover {
+  box-shadow: 0 6px 20px rgba(33, 150, 243, 0.3);
+}
+
+.answer-node-header {
+  background: #2196f3;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.answer-node-icon {
+  font-size: 14px;
+}
+
+.answer-node-label {
+  flex: 1;
+}
+
+.answer-node-content {
+  padding: 12px;
+}
+
+.answer-bullet-wrapper {
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.answer-bullet-wrapper:last-child {
+  margin-bottom: 0;
+}
+
+.answer-bullet {
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  border-radius: 6px;
+  transition: background 0.15s ease;
+  cursor: pointer;
+}
+
+.answer-bullet-wrapper:hover .answer-bullet {
+  background: rgba(33, 150, 243, 0.1);
+}
+
+.bullet-marker {
+  color: #2196f3;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.bullet-text {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #1565c0;
+}
+
+/* Bullet hover actions menu */
+.bullet-actions {
+  display: flex;
+  gap: 4px;
+  padding: 6px 8px;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 4px;
+  animation: fadeIn 0.15s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.bullet-action {
+  padding: 4px 8px;
+  font-size: 11px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  font-weight: 500;
+}
+
+.bullet-action.expand {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.bullet-action.expand:hover {
+  background: #4caf50;
+  color: white;
+}
+
+.bullet-action.sources {
+  background: #fff3e0;
+  color: #e65100;
+}
+
+.bullet-action.sources:hover {
+  background: #ff9800;
+  color: white;
+}
+
+.bullet-action.custom {
+  background: #f3e5f5;
+  color: #7b1fa2;
+}
+
+.bullet-action.custom:hover {
+  background: #9c27b0;
+  color: white;
+}
+
+.answer-handle {
+  width: 10px;
+  height: 10px;
+  background: #2196f3;
+  border: 2px solid white;
+}
+
+.answer-handle:hover {
+  background: #1565c0;
+}
